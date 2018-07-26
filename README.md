@@ -1,5 +1,10 @@
 # LBNL Disruption Tolerant Key Management Monitoring for Stream-Processing Architecture for Real-time Cyber-physical Security (DTKM-SPARCS)
 
+This software is a set of signatures that monitor the Disruption-Tolerant Key Management protocol developed by PNNL as part of the DOE CEDS program.  It leverages both the [Bro Network Security Monitor][Bro] and the [LBNL Stream-Processing Architecture for Real-time Cyber-physical Security (SPARCS)][SPARCS].
+
+[Bro]: https://www.bro.org
+[SPARCS]: https://github.com/lbnl-cybersecurity/sparcs
+
 Tested on bro 2.5.1. Compatible with 2.5.4 stable, not compatible with beta releases (naming changed in beta 2.5.7)
 
 # Install

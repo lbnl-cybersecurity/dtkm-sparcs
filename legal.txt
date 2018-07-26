@@ -1,24 +1,4 @@
-# dtkm-sparcs
-Tested on bro 2.5.1. Compatible with 2.5.4 stable, not compatible with beta releases (naming changed in beta 2.5.7)
 
-# Install
-Install bro with broker and pybroker
-to do this install bro with ./configure --enable-broker
-
-This requires the actor-framework in version 0.14 and swig 1&2&3 to be installed on the system
-
-
-Edit the bro and python files with your ip adresses and credentials
-
-# Runing this code
-Run this code with /usr/local/bro/bin/bro  respectivefile.bro (-r .pcap if replaying) on the respective location. Make sure that traffic is mirrored to the host running this code (e.g via port mirroring, man-in-the-middle etc)
-
-On any device one can run the bro2rabbit.py code that takes messages from Bro and sends it upstream to a RabbitMQ server. 
-
-
-
-
-# About
 *** Copyright Notice ***
 Disruption Tolerant Key Management Monitoring for Stream-Processing Architecture for Real-time Cyber-physical Security (DTKM-SPARCS) Copyright (c) 2018, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
 If you have questions about your rights to use or distribute this software, please contact Berkeley Lab's Intellectual Property Office at  IPO@lbl.gov.

@@ -7,6 +7,9 @@ This software is a set of signatures that monitor the Disruption-Tolerant Key Ma
 
 Tested on bro 2.5.1. Compatible with 2.5.4 stable, not compatible with beta releases (naming changed in beta 2.5.7)
 
+# Overview
+![Bro](https://github.com/lbnl-cybersecurity/dtkm-sparcs/bro.png)
+
 # Install
 Install bro with broker and pybroker. When installing bro, you have to build it yourself with all the public dependencies ./configure --enable-broker
 
